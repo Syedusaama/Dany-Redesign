@@ -60,7 +60,7 @@
     <!-- main-banner -->
 
     <!-- main-banner -->
-    <section class="bg-section-2">
+    <!-- <section class="bg-section-2">
         <div class="container">
         <div class="sec-heading text-center">
                     <h2>How the<br><span style="color:#282828"> Referral Program Works</span></h2>
@@ -72,7 +72,6 @@
                 </div>
             </div>
             <div class="row text-center align-items-center">
-                <!-- <div class="col-md-1"></div> -->
                 <div class="col-md-2">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
                 </div>
@@ -88,8 +87,75 @@
                 <div class="col-md-2">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
                 </div>
-                <!-- <div class="col-md-1"></div> -->
             </div>
+        </div>
+    </section> -->
+    <section class="services-sec-newer">
+        <div class="container">
+            
+            
+            <div class="sec-heading text-center">
+                 <h3>Our Services</h3>
+            </div>
+            
+            <ul class="services-sec-sliders">
+                 <li>
+                    
+                    <div class="service-sec-box-main">
+                        <div class="service-sec-box-main-icon">
+                            <img src="assets/images/service-sec-icon-04.png">
+                        </div>
+                        <div class="service-sec-box-body">
+                            <h5>Payroll  <span>Management</span></h5>
+                            <p>We take away the stress of payroll management with automated high-end payroll management that leaves no room for error. Let us take over salary calculations, leave adjustments, time-ins and outs, and other payroll-related stuff.</p>
+                            <a href="our-services" class="btn-theme" >Learn More</a>
+                        </div>
+                    </div>
+                </li>
+                
+                <li>
+                    
+                    <div class="service-sec-box-main">
+                        <div class="service-sec-box-main-icon">
+                            <img src="assets/images/service-sec-icon-01.png">
+                        </div>
+                        <div class="service-sec-box-body">
+                            <h5>Management <span>Consulting</span></h5>
+                            <p>We are a management consultancy firm with experienced professionals and industry experts on board who bring decades of senior management experience. Our expertise includes consumer and retail banking.</p>
+                            <a href="our-services" class="btn-theme" >Learn More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    
+                    <div class="service-sec-box-main">
+                        <div class="service-sec-box-main-icon">
+                            <img src="assets/images/service-sec-icon-02.png">
+                        </div>
+                        <div class="service-sec-box-body">
+                            <h5>Training & Talent <span>Development</span></h5>
+                            <p>We train and empower people, polishing their skills, bringing out their leadership qualities, and enabling them to contribute to their organization’s growth and profitability. </p>
+                            <a href="our-services" class="btn-theme" >Learn More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    
+                    <div class="service-sec-box-main">
+                        <div class="service-sec-box-main-icon">
+                            <img src="assets/images/service-sec-icon-03.png">
+                        </div>
+                        <div class="service-sec-box-body">
+                            <h5>HR Consultancy <span>& Services</span></h5>
+                            <p>We help you optimize your HR practices and build an excellent team that truly becomes your asset. From recruiting the best talent to executing sustainable retention programs, our expert consultants have you covered with customized HR solutions.</p>
+                            <a href="our-services" class="btn-theme" >Learn More</a>
+                        </div>
+                    </div>
+                </li>
+               
+               
+            </ul>
+            
         </div>
     </section>
     <section class="bg-section-3" style="background-image:url(assets/images/fourth-sec.png); ">
@@ -115,7 +181,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-1 offset-md-1">
                     <img src="assets/images/free-shiping.png" alt="">
                 </div>
                 <div class="col-md-8">
@@ -124,7 +190,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-1 offset-md-2">
                     <img src="assets/images/checkout.png" alt="">
                 </div>
                 <div class="col-md-8">
@@ -159,11 +225,49 @@
 
         <!-- main-banner -->
     <section class="bg-section-5">
-        <div class="container">
+        <div class="faq-sec-box">
             <div class="row">
-
+            <div class="banner-content">
+                <div class="sec-heading">
+                    <h2>You must have<br><span style="color:#282828">  a Question</span></h2>
+                    <p>Here's some Frequently Asked Question. if you still have a
+                    question about us, don't be hesitate to Contact Us</p>
+                    <a href="#" class="blue-btn">join us</a>
             </div>
+            </div> 
+            <div class="faq">
+  <div class="accordion">
+    <div class="accordion-item">
+      <a href="#">1- How can I make a payment on the website for my purchase?</a>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a href="#">2- Can I pay cash on delivery?</a>
+      <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a href="#">3- Are there any hidden charges when I make a payment?</a>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a href="#">4- The amount is deducted from my account but I didn’t receive </a>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
         </div>
+            </div>
+
+            
     </section>
 
 
