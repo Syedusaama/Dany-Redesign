@@ -92,10 +92,47 @@
             </div>
         </div>
     </section>
-    <section class="bg-section-3">
-        <div class="container">
+    <section class="bg-section-3" style="background-image:url(assets/images/fourth-sec.png); ">
+    <div class="shipping-box">
+            <div class="row row align-items-center">
+                <div class="col-md-6">
+                    <div class="banner-content">
+                <div class="sec-heading">
+                    <h2>We Make<br> Difference by<br><span style="color:#282828"> Giving an Impact</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    <a href="#" class="blue-btn">join us</a>
+            </div>
+            </div> 
+        </div>
+                <div class="col-md-6">
+                <div class="row">
+                <div class="col-md-1">
+                    <img src="assets/images/replacement.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="shipping-h2">7 Days<br><span style="color:#282828"> Replacement</span></h2>
+                    <p class="shipping-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
+                </div>
+            </div>
             <div class="row">
-
+                <div class="col-md-1">
+                    <img src="assets/images/free-shiping.png" alt="">
+                </div>
+                <div class="col-md-8">
+                <h2 class="shipping-h2">Free <br><span style="color:#282828">Shipping</span></h2>
+                    <p class="shipping-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <img src="assets/images/checkout.png" alt="">
+                </div>
+                <div class="col-md-8">
+                <h2 class="shipping-h2">Secure <br><span style="color:#282828">Checkout</span></h2>
+                    <p class="shipping-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
+                </div>
+            </div>
+                </div>
             </div>
         </div>
     </section>

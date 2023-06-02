@@ -518,13 +518,29 @@ ul.dropdown li a:hover {
 
 /* section 01 */
 
+/* section 02 */
 
+.bg-section-2{
+    background-color: #f4f4f4;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
+/* section 02 */
 
-
-
-
-
+.bg-section-3{
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+.shipping-h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #0c4ea2;
+}
+.shipping-p{
+    font-size: 17px;
+}
 
 
 
