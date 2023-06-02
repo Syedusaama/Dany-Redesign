@@ -526,7 +526,7 @@ ul.dropdown li a:hover {
     padding-bottom: 80px;
 }
 
-/* section 02 */
+/* section 03 */
 
 .bg-section-3{
     background-repeat: no-repeat;
@@ -545,15 +545,20 @@ ul.dropdown li a:hover {
     width: 60%;
     padding-bottom: 20px;
 }
+/* section 03 */
 
 
 
+/* section 04 */
+.bg-section-4{}
+
+.boy-img{
+    margin-top: -50px;
+}
 
 
 
-
-
-
+/* section 04 */
 
 
 @media (max-width: 1440px) {}

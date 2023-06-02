@@ -140,13 +140,24 @@
     <!-- main-banner -->
 
     <!-- main-banner -->
-    <section class="bg-section-4">
+    <section class="bg-section-4"  style="background-image:url(assets/images/fith-sec.png); ">
         <div class="container">
-            <div class="row">
-
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <img class="boy-img" src="assets/images/boy.png" alt="">
+                </div>
+                <div class="col-md-7">
+                <div class="sec-heading">
+                    <h2><span style="color:#fff">Start Referring Today ! </span></h2>
+                    <p><span style="color:#fff">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exion.</span></p>
+                    <a href="#" class="main-btn">join us</a>
+            </div>
+                </div>
             </div>
         </div>
     </section>
+
+        <!-- main-banner -->
     <section class="bg-section-5">
         <div class="container">
             <div class="row">
@@ -155,7 +166,7 @@
         </div>
     </section>
 
-    <!-- main-banner -->
+
 
     <!-- main-banner -->
     <section class="bg-section-6">
