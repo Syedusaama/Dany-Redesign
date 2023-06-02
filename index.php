@@ -58,35 +58,6 @@
     </section>
 
     <!-- main-banner -->
-
-    <!-- main-banner -->
-    <!-- <section class="bg-section-2">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="assets/images/work.png" alt="">
-                </div>
-            </div>
-            <div class="row text-center align-items-center">
-                <div class="col-md-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-                </div>
-                <div class="col-md-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-                </div>
-                <div class="col-md-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-                </div>
-                <div class="col-md-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-                </div>
-                <div class="col-md-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <section class="bg-section-2">
         <div class="container">
             
@@ -97,7 +68,7 @@
                 </div>
             
             <ul class="services-sec-sliders">
-                 <li>
+                <li>
                     <div class="service-sec-box-main">
                         <div class="service-sec-box-main-icon">
                             <img src="assets/images/search.png">
@@ -152,9 +123,7 @@
                         </div>
                     </div>
                 </li>
-               
             </ul>
-            
         </div>
     </section>
     <section class="bg-section-3" style="background-image:url(assets/images/fourth-sec.png); ">
@@ -170,6 +139,7 @@
             </div> 
         </div>
                 <div class="col-md-6">
+                    <div class="shipping-content">
                 <div class="row">
                 <div class="col-md-1">
                     <img src="assets/images/replacement.png" alt="">
@@ -179,6 +149,8 @@
                     <p class="shipping-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
                 </div>
             </div>
+            </div>
+            <div class="shipping-content">
             <div class="row">
                 <div class="col-md-1 offset-md-1">
                     <img src="assets/images/free-shiping.png" alt="">
@@ -188,6 +160,8 @@
                     <p class="shipping-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
                 </div>
             </div>
+            </div>
+            <div class="shipping-content">
             <div class="row">
                 <div class="col-md-1 offset-md-2">
                     <img src="assets/images/checkout.png" alt="">
@@ -196,6 +170,7 @@
                 <h2 class="shipping-h2">Secure <br><span style="color:#282828">Checkout</span></h2>
                     <p class="shipping-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
                 </div>
+            </div>
             </div>
                 </div>
             </div>

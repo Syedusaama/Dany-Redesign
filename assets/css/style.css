@@ -93,7 +93,7 @@ input[type="submit"] {
 }
 
 a:hover {
-    color: #ff5e14;
+    color: #fff;
 }
 
 span {
@@ -199,7 +199,7 @@ button {
 .para {}
 
 .highlighted {
-    color: #ff5e14;
+    color: #fff;
 }
 
 
@@ -685,21 +685,6 @@ ul.services-sec-sliders>li::before {
     -o-transition: all 0.35s ease 0.15s;
     transition: all 0.35s ease 0.15s;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* faq */
 
 
@@ -787,6 +772,7 @@ ul.services-sec-sliders>li::before {
     .sec-heading p{
         font-size: 17px;
         text-align: center;
+        padding: 10px 20px;
     }
     .main-banner {
         padding-top: 50px;
@@ -817,8 +803,8 @@ ul.services-sec-sliders>li::before {
     /* section 01 */
     
     .bg-section-1{
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     
     /* section 01 */
@@ -826,16 +812,15 @@ ul.services-sec-sliders>li::before {
     /* section 02 */
     
     .bg-section-2{
-        background-color: #f4f4f4;
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     
     ul.services-sec-sliders>li {
         width: 32%;
         padding: 0px 5px;
     }
-    }
+
     ul.services-sec-sliders>li::before {
         content: "";
         background-image: url("assets/images/radius.png");
@@ -845,34 +830,29 @@ ul.services-sec-sliders>li::before {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    
-    
     /* section 02 */
     
     /* section 03 */
     
     .bg-section-3{
-        background-repeat: no-repeat;
-        background-position: center right;
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
-    .shipping-h2{
-        font-size: 36px;
-        font-weight: bold;
-        color: #0c4ea2;
-        padding-bottom: 20px;
+    .shipping-content{
+        text-align: center;
+    }
+    .shipping-h2 {
+        padding-bottom: 0px;
     }
     .shipping-p{
-        font-size: 17px;
-        width: 60%;
-        padding-bottom: 20px;
+        width: 100%;
+        padding: 20px;
     }
     /* section 03 */
-    
-    
-    
     /* section 04 */
+    .bg-section-4{
+        padding-bottom: 30px;
+    }
     .boy-img{
         margin-top: -50px;
     }
@@ -882,8 +862,8 @@ ul.services-sec-sliders>li::before {
     
     /* section 05 */
     .bg-section-5{
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     
     /* section 05 */
@@ -897,78 +877,17 @@ ul.services-sec-sliders>li::before {
         box-sizing: border-box;
       }
       .faq {
-        padding: 0px 72px;
-        width: 65rem;
+        padding: 0px 35px;
+        margin-top: 20px;
       }
       .accordion a {
-        position: relative;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        width: 100%;
-        padding: 22px 10px 22px 10px;
-        color: #0c4ea2;
-        font-size: 24px;
-        font-weight: 600;
-        border-bottom: 1px solid #e5e5e5;
-        border-top: 1px solid #e5e5e5;
-        font-family: 'Montserrat', sans-serif;
-      }
-      .accordion a:hover,
-      .accordion a:hover::after {
-        cursor: pointer;
-        color: #0c4ea2;
-      }
-      .accordion a.active {
-        color: #0c4ea2;
-      }
-      .accordion a::after {
-        content: '\f150';
-        position: absolute;
-        float: right;
-        right: 1rem;
-        font-size: 1rem;
-        color: #7288a2;
-        padding: 5px;
-        width: 30px;
-        height: 30px;
-        text-align: center;
-      }
-      .accordion a.active::after {
-        font-family: "Font-Awesome";
-        content: '\f150';
-        color: #0c4ea2;
-      }
-      .accordion .content {
-        opacity: 0;
-        padding: 0 1rem;
-        max-height: 0;
-        overflow: hidden;
-        clear: both;
-        -webkit-transition: all 0.2s ease 0.15s;
-        -o-transition: all 0.2s ease 0.15s;
-        transition: all 0.2s ease 0.15s;
+        font-size: 18px;
       }
       .accordion .content p {
-        font-size: 16px;
-        font-weight: normal;
-        color: #000;
-        width: 85%;
-        line-height: 1.5;
-        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        width: 100%;
       }
       .accordion .content.active {
-        opacity: 1;
-        padding: 30px;
-        max-height: 100%;
-        -webkit-transition: all 0.35s ease 0.15s;
-        -o-transition: all 0.35s ease 0.15s;
-        transition: all 0.35s ease 0.15s;
+        padding: 18px;
       }
 }
