@@ -62,10 +62,7 @@
     <!-- main-banner -->
     <!-- <section class="bg-section-2">
         <div class="container">
-        <div class="sec-heading text-center">
-                    <h2>How the<br><span style="color:#282828"> Referral Program Works</span></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <img src="assets/images/work.png" alt="">
@@ -90,25 +87,23 @@
             </div>
         </div>
     </section> -->
-    <section class="services-sec-newer">
+    <section class="bg-section-2">
         <div class="container">
             
             
-            <div class="sec-heading text-center">
-                 <h3>Our Services</h3>
-            </div>
+        <div class="sec-heading text-center">
+                    <h2>How the<br><span style="color:#282828"> Referral Program Works</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                </div>
             
             <ul class="services-sec-sliders">
                  <li>
-                    
                     <div class="service-sec-box-main">
                         <div class="service-sec-box-main-icon">
-                            <img src="assets/images/service-sec-icon-04.png">
+                            <img src="assets/images/search.png">
                         </div>
                         <div class="service-sec-box-body">
-                            <h5>Payroll  <span>Management</span></h5>
-                            <p>We take away the stress of payroll management with automated high-end payroll management that leaves no room for error. Let us take over salary calculations, leave adjustments, time-ins and outs, and other payroll-related stuff.</p>
-                            <a href="our-services" class="btn-theme" >Learn More</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
                         </div>
                     </div>
                 </li>
@@ -117,12 +112,10 @@
                     
                     <div class="service-sec-box-main">
                         <div class="service-sec-box-main-icon">
-                            <img src="assets/images/service-sec-icon-01.png">
+                            <img src="assets/images/bulb.png">
                         </div>
                         <div class="service-sec-box-body">
-                            <h5>Management <span>Consulting</span></h5>
-                            <p>We are a management consultancy firm with experienced professionals and industry experts on board who bring decades of senior management experience. Our expertise includes consumer and retail banking.</p>
-                            <a href="our-services" class="btn-theme" >Learn More</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
                         </div>
                     </div>
                 </li>
@@ -130,12 +123,10 @@
                     
                     <div class="service-sec-box-main">
                         <div class="service-sec-box-main-icon">
-                            <img src="assets/images/service-sec-icon-02.png">
+                            <img src="assets/images/rocket.png">
                         </div>
                         <div class="service-sec-box-body">
-                            <h5>Training & Talent <span>Development</span></h5>
-                            <p>We train and empower people, polishing their skills, bringing out their leadership qualities, and enabling them to contribute to their organization’s growth and profitability. </p>
-                            <a href="our-services" class="btn-theme" >Learn More</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
                         </div>
                     </div>
                 </li>
@@ -143,16 +134,24 @@
                     
                     <div class="service-sec-box-main">
                         <div class="service-sec-box-main-icon">
-                            <img src="assets/images/service-sec-icon-03.png">
+                            <img src="assets/images/setting.png">
                         </div>
                         <div class="service-sec-box-body">
-                            <h5>HR Consultancy <span>& Services</span></h5>
-                            <p>We help you optimize your HR practices and build an excellent team that truly becomes your asset. From recruiting the best talent to executing sustainable retention programs, our expert consultants have you covered with customized HR solutions.</p>
-                            <a href="our-services" class="btn-theme" >Learn More</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
                         </div>
                     </div>
                 </li>
-               
+                <li>
+                    
+                    <div class="service-sec-box-main">
+                        <div class="service-sec-box-main-icon">
+                            <img src="assets/images/arrow.png">
+                        </div>
+                        <div class="service-sec-box-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
+                        </div>
+                    </div>
+                </li>
                
             </ul>
             

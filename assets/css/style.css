@@ -526,6 +526,27 @@ ul.dropdown li a:hover {
     padding-bottom: 80px;
 }
 
+ul.services-sec-sliders>li {
+    display: inline-block;
+    width: 19%;
+    padding: 0 20px;
+    font-size: 0px;
+}
+ul.services-sec-sliders>li::before {
+    content: "";
+    background-image: url("assets/images/radius.png");
+}
+.service-sec-box-body p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* section 02 */
+
 /* section 03 */
 
 .bg-section-3{
@@ -754,3 +775,237 @@ ul.dropdown li a:hover {
 }
 
 @media (max-width: 824px) {}
+
+
+@media (max-width: 767px) {
+    .sec-heading h2{
+        font-size: 80px;
+        font-weight: bold;
+        color: #0c4ea2;
+    }
+    .sec-heading p{
+        font-size: 17px;
+        font-weight: normal;
+        color: #000;
+        line-height: 1.5;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .main-banner {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .banner-content{
+        padding-left: 50px;
+    }
+    
+    .banner-h2{
+        font-size: 106px !important;
+        font-weight: bold;
+        color: #0c4ea2;
+    }
+    .banner-p{
+        font-size: 26px !important;
+        font-weight: normal;
+        color: #717171 !important;
+    }
+    .main-btn{
+        background-color: #282828;
+        color: #fff;
+        border-radius: 36px;
+        padding: 18px 28px;
+        text-transform: uppercase;
+    }
+    .blue-btn{
+        background-color: #0c4ea2;
+        color: #fff;
+        border-radius: 36px;
+        padding: 18px 28px;
+        text-transform: uppercase;
+    }
+    
+    /*  */
+    
+    /* section 01 */
+    
+    .bg-section-1{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    /* section 01 */
+    
+    /* section 02 */
+    
+    .bg-section-2{
+        background-color: #f4f4f4;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    ul.services-sec-sliders>li {
+        display: inline-block;
+        width: 19%;
+        padding: 0 20px;
+        font-size: 0px;
+    }
+    ul.services-sec-sliders>li::before {
+        content: "";
+        background-image: url("assets/images/radius.png");
+    }
+    .service-sec-box-body p{
+        font-size: 16px;
+        font-weight: normal;
+        color: #000;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    
+    /* section 02 */
+    
+    /* section 03 */
+    
+    .bg-section-3{
+        background-repeat: no-repeat;
+        background-position: center right;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .shipping-h2{
+        font-size: 36px;
+        font-weight: bold;
+        color: #0c4ea2;
+        padding-bottom: 20px;
+    }
+    .shipping-p{
+        font-size: 17px;
+        width: 60%;
+        padding-bottom: 20px;
+    }
+    /* section 03 */
+    
+    
+    
+    /* section 04 */
+    .boy-img{
+        margin-top: -50px;
+    }
+    
+    /* section 04 */
+    
+    
+    /* section 05 */
+    .bg-section-5{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    
+    /* section 05 */
+    
+    
+    
+    /* faq */
+    
+    
+    
+    *, *:before, *:after {
+        -webkit-box-sizing: inherit;
+        box-sizing: inherit;
+      }
+      html {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      /* body {
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        color: #4d5974;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+      } */
+      .faq {
+        padding: 0px 72px;
+        width: 65rem;
+      }
+      .accordion a {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        padding: 22px 10px 22px 10px;
+        color: #0c4ea2;
+        font-size: 24px;
+        font-weight: 600;
+        border-bottom: 1px solid #e5e5e5;
+        border-top: 1px solid #e5e5e5;
+        font-family: 'Montserrat', sans-serif;
+      }
+      .accordion a:hover,
+      .accordion a:hover::after {
+        cursor: pointer;
+        color: #0c4ea2;
+      }
+      .accordion a.active {
+        color: #0c4ea2;
+      }
+      .accordion a::after {
+        content: '\f150';
+        position: absolute;
+        float: right;
+        right: 1rem;
+        font-size: 1rem;
+        color: #7288a2;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+      }
+      .accordion a.active::after {
+        font-family: "Font-Awesome";
+        content: '\f150';
+        color: #0c4ea2;
+      }
+      .accordion .content {
+        opacity: 0;
+        padding: 0 1rem;
+        max-height: 0;
+        overflow: hidden;
+        clear: both;
+        -webkit-transition: all 0.2s ease 0.15s;
+        -o-transition: all 0.2s ease 0.15s;
+        transition: all 0.2s ease 0.15s;
+      }
+      .accordion .content p {
+        font-size: 16px;
+        font-weight: normal;
+        color: #000;
+        width: 85%;
+        line-height: 1.5;
+        font-family: 'Lato', sans-serif;
+      }
+      .accordion .content.active {
+        opacity: 1;
+        padding: 30px;
+        max-height: 100%;
+        -webkit-transition: all 0.35s ease 0.15s;
+        -o-transition: all 0.35s ease 0.15s;
+        transition: all 0.35s ease 0.15s;
+      }
+}
