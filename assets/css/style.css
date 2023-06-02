@@ -531,15 +531,19 @@ ul.dropdown li a:hover {
 .bg-section-3{
     background-repeat: no-repeat;
     background-position: center right;
-    background-size: contain;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .shipping-h2{
     font-size: 36px;
     font-weight: bold;
     color: #0c4ea2;
+    padding-bottom: 20px;
 }
 .shipping-p{
     font-size: 17px;
+    width: 60%;
+    padding-bottom: 20px;
 }
 
 

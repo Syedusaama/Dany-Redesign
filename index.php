@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-1">
+                <div class="col-md-2">
                     <img src="assets/images/free-shiping.png" alt="">
                 </div>
                 <div class="col-md-8">
@@ -124,7 +124,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-1">
+                <div class="col-md-3">
                     <img src="assets/images/checkout.png" alt="">
                 </div>
                 <div class="col-md-8">
