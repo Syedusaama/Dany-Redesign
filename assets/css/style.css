@@ -532,10 +532,7 @@ ul.services-sec-sliders>li {
     padding: 0 20px;
     font-size: 0px;
 }
-ul.services-sec-sliders>li::before {
-    content: "";
-    background-image: url("assets/images/radius.png");
-}
+
 .service-sec-box-body p{
     font-size: 16px;
     font-weight: normal;
@@ -643,10 +640,11 @@ ul.services-sec-sliders>li::before {
     color: #0c4ea2;
   }
   .accordion a::after {
+    font-family: "Font Awesome 5 Pro";
     content: '\f150';
     position: absolute;
     float: right;
-    right: 1rem;
+    right: 0rem;
     font-size: 1rem;
     color: #7288a2;
     padding: 5px;
@@ -655,7 +653,6 @@ ul.services-sec-sliders>li::before {
     text-align: center;
   }
   .accordion a.active::after {
-    font-family: "Font-Awesome";
     content: '\f150';
     color: #0c4ea2;
   }
@@ -686,8 +683,6 @@ ul.services-sec-sliders>li::before {
     transition: all 0.35s ease 0.15s;
   }
 /* faq */
-
-
 
 
 
@@ -762,6 +757,9 @@ ul.services-sec-sliders>li::before {
 
 
 @media (max-width: 767px) {
+    .banner-box {
+        text-align: center;
+    }
     .sec-heading{
         text-align: center;
     }
@@ -781,7 +779,21 @@ ul.services-sec-sliders>li::before {
     .banner-content{
         padding-left: 0px;
     }
-    
+    section.bg-section-1 img {
+        max-width: 50%;
+        margin: auto;
+        display: block;
+        padding-bottom: 25px;
+    }
+    ul.services-sec-sliders {
+        text-align: center;
+        font-size: 0;
+    }
+    .service-sec-box-main-icon img {
+        width: 80px;
+        display: block;
+        margin: auto;
+    }
     .banner-h2{
         font-size: 45px !important;
         text-align: center;
@@ -793,6 +805,7 @@ ul.services-sec-sliders>li::before {
     }
     .main-btn{
         padding: 15px 22px;
+        margin-bottom: 20px;
     }
     .blue-btn{
         padding: 15px 22px;
@@ -821,10 +834,10 @@ ul.services-sec-sliders>li::before {
         padding: 0px 5px;
     }
 
-    ul.services-sec-sliders>li::before {
+    /* ul.services-sec-sliders>li::before {
         content: "";
         background-image: url("assets/images/radius.png");
-    }
+    } */
     .service-sec-box-body p{
         font-size: 14px;
         padding-top: 20px;
@@ -837,9 +850,11 @@ ul.services-sec-sliders>li::before {
     .bg-section-3{
         padding-top: 50px;
         padding-bottom: 50px;
+        background-image: none !important;
     }
     .shipping-content{
         text-align: center;
+        padding: 25px 0;
     }
     .shipping-h2 {
         padding-bottom: 0px;
@@ -848,13 +863,14 @@ ul.services-sec-sliders>li::before {
         width: 100%;
         padding: 20px;
     }
+
     /* section 03 */
     /* section 04 */
-    .bg-section-4{
-        padding-bottom: 30px;
+    .bg-section-4 {
+        padding-top: 20px;
     }
     .boy-img{
-        margin-top: -50px;
+        margin-top: 0px;
     }
     
     /* section 04 */
@@ -881,7 +897,9 @@ ul.services-sec-sliders>li::before {
         margin-top: 20px;
       }
       .accordion a {
-        font-size: 18px;
+        font-size: 16px;
+        padding: 22px 30px 22px 10px;
+
       }
       .accordion .content p {
         font-size: 14px;
@@ -890,4 +908,10 @@ ul.services-sec-sliders>li::before {
       .accordion .content.active {
         padding: 18px;
       }
+      section.bg-section-4 .row {
+        flex-direction: column-reverse;
+    }
+    .banner-content .row {
+        flex-direction: column-reverse;
+    }
 }

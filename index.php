@@ -25,7 +25,7 @@
                 <div class="col-md-3">
                 <a href="#" class="main-btn">Refer a Friend</a>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 sec-heading">
                 <p>Friends and family is what really matters in life, and DANY you can give your F'nF a little extra. With the DANY Referral program now</p>
                 </div>
                 </div> 
